@@ -16,3 +16,7 @@ body {
     min-height: 50px;
     font-size: 2rem;
   }
+
+  .nav {
+    opacity: 5;
+  }
