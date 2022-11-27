@@ -57,7 +57,7 @@ if (isset($_POST['Email'])) {
     }
 
     $email_message .= "Name: " . clean_string($name) . "\n";
-    $email_message .= "Email: " . clean_string($email) . "\n";
+    
     $email_message .= "Message: " . clean_string($message) . "\n";
 
     // create email headers
