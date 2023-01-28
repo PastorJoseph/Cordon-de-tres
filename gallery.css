@@ -10,6 +10,10 @@
     background-color: blanchedalmond;
   }  
 
+  a {
+    text-decoration: none;
+  }
+
   .fa {
     padding: 20px;
     font-size: 30px;

@@ -31,3 +31,7 @@ body {
 footer {
   background-color: blanchedalmond;
 } 
+
+a {
+  text-decoration: none;
+}
