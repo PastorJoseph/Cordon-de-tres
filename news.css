@@ -1,6 +1,13 @@
 body {
-    background-color: beige;
-  }
+    /* background-color: beige; */
+   background-image: url(images/wesley-tingey-KrQkCVZO1BI-unsplash.jpg);
+   
+   background-size: cover;
+   ;
+   opacity: 1.0;
+   color: black;
+   
+   }
 
   .fa {
     padding: 20px;
