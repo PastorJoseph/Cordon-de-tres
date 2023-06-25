@@ -12,9 +12,9 @@
    
     
  
-  <nav class="navbar navbar-expand-lg bg-secondary sticky-top navbar-dark px-4 ">
-    <div class="container">
-      <a href="#" class="navbar-brand fs-1" >CDT</a>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light navbar-light px-4">
+      <div class="container">
+        <a href="#" class="navbar-brand fs-1" ><span class="text-secondary bg-subtle">CDT</span>Marriage Ministry</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navmenu">
@@ -50,14 +50,14 @@
     </div>
     
     <div class="box px-5 my-5">
-      <div class="bo">
-        <h1 class="text-secondary mt-5 mb-5 display-4 text-center">Contact Us</h1>
+      <div class="box">
+        <!-- <h1 class="text-secondary mt-5 mb-5 display-4 text-center">Contact Us</h1> -->
     </div>
-      <form id="contactForm" data-sb-form-api-token="d44f97b1-26c3-448c-92c4-2c1bd76e6030">
+      <!-- <form id="contactForm" data-sb-form-api-token="d44f97b1-26c3-448c-92c4-2c1bd76e6030">
        
           <div class="form-floating mb-3">
               <input class="form-control" id="firstName" type="text" placeholder="First Name" data-sb-validations="required" />
-              <label for="firstName">First Name</label>
+              <label for="firstName" class="">First Name</label>
               <div class="invalid-feedback" data-sb-feedback="firstName:required">First Name is required.</div>
           </div>
           <div class="form-floating mb-3">
@@ -88,11 +88,40 @@
           <div class="d-grid">
               <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
           </div>
-      </form>
+      </form> -->
+      <!-- <div class="container mt-5"> -->
+        <h1 class="text-center mb-5">Contact Us</h1>
+        <form class="row g-3" action="https://formsubmit.co/cordon-de-tres@outlook.com" method="POST">
+          <div class="col-md-6">
+              <label for="firstname" class="form-label">First Name</label>
+              <input type="text" class="form-control" name="name" id="firstname" required>
+          </div>
+          <div class="col-md-6">
+              <label for="lastname" class="form-label">Last Name</label>
+              <input type="text" class="form-control" name="Last Name" id="lastname" required>
+          </div>
+          <div class="col-md-8">
+              <label for="emailinfo" class="form-label">Email</label>
+          
+           <input type="email" class="form-control" name="email" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (559) 412-9587">
+      </div>
+      <div class="col-md-12">
+          <label for="comments" class="form-label">Comments, questions?</label>
+          <textarea class="form-control" id="comments" name="comments, questions" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+          <button type="submit" class="btn btn-primary mb-5">Submit</button>
+      </div>
+  
+       </form>
       
       
   </div>
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
 
 </body>
 <style>
@@ -100,10 +129,11 @@
 </style>
 
   
-   <!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-secondary pt-">
+
+ <!-- Footer -->
+ <footer class="text-center text-lg-start bg-white text-secondary p-">
   <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p- border-bottom">
+  <section class="d-flex justify-content-center justify-content-lg-between -4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
     
@@ -131,10 +161,8 @@
            Since 2010, contending for the healing, restoration and growth of marriages for the glory of our Lord and Savior Jesus Christ!
           </p>
           <a href="https://www.facebook.com/cordondetres" target="_blank"><i class="fa-brands fa-facebook fa-4x"></i></a> 
-          
         </div>
-        <style></style>
-       
+        
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -167,17 +195,16 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <!-- <p><i class="fas fa-home me-3 text-secondary"></i> Madera, CA 93637</p> -->
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
             <a href="mailto:cordon-de-tres@outlook.com" class="text-decoration">Email</a>
-          </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> <a href="tel:559-412-9587">(559) 412-9587</a></p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> <a href="tel:559-412-9587">(559) 412-9587</a></p>
           
-          <p><i class="fas fa-phone me-3 text-secondary"></i><a href="tel:559-412-9332">(559) 412-9332</a></p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i><a href="tel:559-412-9332">(559) 412-9332</a></p>
           <!-- <p><i class="fas fa-print me-3 text-secondary pt-5"></i>&copy 2022 Joseph Connelly</p> -->
           
         </div>
